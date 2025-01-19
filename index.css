@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+form{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-pass-container{
+    background-color: #FFAF00;
+    height: 90%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 97%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.login {
+    color: #31363F;
+    font-size: 35px;
+}
+.first-container{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.user-id   {
+    color: #31363F;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.user-holder{
+    width: 25rem;
+    height: 45px;
+    border-radius: 10px;
+    border-style: 1px;
+}
+.password {
+    color: #31363F;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.pass-holder{
+    width: 25rem;
+    height: 45px;
+    border-radius: 10px;
+    border-style: 1px;
+}
+.sec-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 35%;
+    width: 100%;
+}
+.login-button {
+    background-color: #FFAF00;
+    padding: 20px;
+    width: 50%;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.forget-pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 40px;
+}
+h3 {
+    font-size: 20px;
+    color: #FF7ED4;
+}
+hr {
+    width: 20rem;
+    border: 1px solid;
+}
+.log-in{
+    font-weight: 500;
+}
+.facebook-google-container{
+   width: 100%;
+   height: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.fb{
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 4px  #FFAF00 solid;
+}
+.fb-image{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook {
+    margin-top: 10px;
+    color: #31363F;
+    font-weight: 500;
+}
+.ggl{
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 4px  #FFAF00 solid;
+}
+.ggl-image{
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google {
+    margin-top: 10px;
+    color: #31363F;
+    font-weight: 500;
+}
